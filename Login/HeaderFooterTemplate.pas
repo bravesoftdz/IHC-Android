@@ -1,0 +1,36 @@
+unit HeaderFooterTemplate;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,TabbedFormwithNavigation,
+  FMX.Objects, FMX.Edit, FMX.Controls.Presentation,TabbedFormwithNavigation;
+
+type
+  THeaderFooterForm = class(TForm)
+    Footer: TToolBar;
+    ToolBar1: TToolBar;
+    Label1: TLabel;
+    ToolBar2: TToolBar;
+    EditLogin: TEdit;
+    Label2: TLabel;
+    EditSenha: TEdit;
+    Senha: TLabel;
+    Button1: TButton;
+    Image1: TImage;
+    Image2: TImage;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  HeaderFooterForm: THeaderFooterForm;
+
+implementation
+
+{$R *.fmx}
+
+end.
